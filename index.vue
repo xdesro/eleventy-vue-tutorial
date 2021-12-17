@@ -1,7 +1,7 @@
 <template>
   <article>
     <Navigation :posts="posts" />
-    <h1 class="title">This is a test</h1>
+    <h1>This is a test</h1>
     <ul>
       <li v-for="(listItem, index) in listItems" :key="index">
         {{ listItem }}
@@ -11,14 +11,11 @@
 </template>
 
 <style>
+body {
+  background-color: #efefef;
+}
 article {
   font-family: sans-serif;
-}
-.title {
-  color: red;
-}
-body {
-  background: red;
 }
 </style>
 
