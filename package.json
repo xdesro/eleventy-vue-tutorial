@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ELEVENTY_EXPERIMENTAL=true npx @11ty/eleventy --serve",
-    "build": "ELEVENTY_EXPERIMENTAL=true npx @11ty/eleventy"
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   },
   "keywords": [],
   "author": "Henry Desroches <yo@henry.codes> (https://henry.codes/)",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^1.0.0-beta.8",
     "@11ty/eleventy-plugin-vue": "^0.6.0"
   }
 }

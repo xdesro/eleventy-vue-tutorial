@@ -38,13 +38,5 @@ export default {
   components: {
     Navigation,
   },
-  computed: {
-    css() {
-      return this.getVueComponentCssForPage(this.page.url);
-    },
-    app() {
-      return this;
-    },
-  },
 };
 </script>
